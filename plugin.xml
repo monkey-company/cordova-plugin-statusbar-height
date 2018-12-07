@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="info.entom.cordova-plugin-statusbar-height"
+        version="0.1.0">
+
+    <name>cordova-plugin-statusbar-height</name>
+
+    <engines>
+        <engine name="cordova" version=">=3.4.0"/>
+    </engines>
+
+    <asset src="www/statusbarheight.js" target="js/statusbarheight.js"/>
+
+    <js-module src="www/statusbarheight.js" name="statusbarheight">
+        <clobbers target="statusbarheight"/>
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Statusbarheight">
+                <param name="android-package" value="info.entom.plugin.Statusbarheight"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/Statusbarheight.java" target-dir="src/info/entom/plugin/"/>
+    </platform>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/widget">
+            <feature name="Statusbarheight">
+                <param name="ios-package" value="Statusbarheight"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/Statusbarheight.h" target-dir="Statusbarheight"/>
+        <source-file src="src/ios/Statusbarheight.m" target-dir="Statusbarheight"/>
+    </platform>
+</plugin>
