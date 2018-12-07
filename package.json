@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-clear-push-notification",
+  "name": "cordova-plugin-statusbar-height",
   "version": "0.1.0",
-  "description": "Clear Push Notification",
+  "description": "Statusbar Height",
   "cordova": {
-    "id": "cordova-plugin-clear-push-notification",
+    "id": "cordova-plugin-statusbar-height",
     "platforms": [
       "android",
       "ios"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/entom/cordova-plugin-clear-push-notification.git"
+    "url": "git+https://github.com/entom/cordova-plugin-statusbar-height.git"
   },
   "keywords": [
     "cordova",
@@ -21,7 +21,7 @@
   ],
   "author": "Tomasz Nicieja",
   "bugs": {
-    "url": "https://github.com/entom/cordova-plugin-clear-push-notification/issues"
+    "url": "https://github.com/entom/cordova-plugin-statusbar-height/issues"
   },
-  "homepage": "https://github.com/entom/cordova-plugin-clear-push-notification#readme"
+  "homepage": "https://github.com/entom/cordova-plugin-statusbar-height#readme"
 }
