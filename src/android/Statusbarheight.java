@@ -25,7 +25,7 @@ public class Statusbarheight extends CordovaPlugin {
                 result = (int) (result / Resources.getSystem().getDisplayMetrics().density);
             }
 
-            String message = "{height: '"+result+"'}";
+            String message = "{\"height\": \""+result+"\"}";
             callbackContext.success(message);
 
             return true;
