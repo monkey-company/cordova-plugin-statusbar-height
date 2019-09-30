@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/entom/cordova-plugin-statusbar-height.git"
+    "url": "git+https://github.com/monkey-company/cordova-plugin-statusbar-height.git"
   },
   "keywords": [
     "cordova",
@@ -21,7 +21,7 @@
   ],
   "author": "Tomasz Nicieja",
   "bugs": {
-    "url": "https://github.com/entom/cordova-plugin-statusbar-height/issues"
+    "url": "https://github.com/monkey-company/cordova-plugin-statusbar-height/issues"
   },
-  "homepage": "https://github.com/entom/cordova-plugin-statusbar-height#readme"
+  "homepage": "https://github.com/monkey-company/cordova-plugin-statusbar-height#readme"
 }
