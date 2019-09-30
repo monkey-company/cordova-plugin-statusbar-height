@@ -2,13 +2,22 @@
 
 Get statusbar height in px.
 
+**forked from entom/cordova-plugin-statusbar-height**
+
+Fix phonegap build
+
 ## Using
     
 Install the plugin
 
     $ cd your_project_name
-    $ cordova plugin add https://github.com/entom/cordova-plugin-statusbar-height.git
+    $ cordova plugin add https://github.com/monkey-company/cordova-plugin-statusbar-height.git
     
+Edit `config.xml`
+
+```xml
+<plugin name="info.entom.cordova-plugin-statusbar-height" spec="https://github.com/monkey-company/cordova-plugin-statusbar-height.git" />
+```
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 
